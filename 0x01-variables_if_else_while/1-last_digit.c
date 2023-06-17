@@ -28,4 +28,4 @@ int main(void)
 		printf("Last digit of %d n is %d and i less than 6", n, ld);
 	}
 	return (0);
-};
+}
