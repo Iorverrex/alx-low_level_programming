@@ -4,23 +4,28 @@
  *
  * @size: integer to set square size
  */
-void print_square(int size)
+int main(void)
 {
-	int i;
-	int j;
+	void print_square(int size)
+	{
+		size = 10;
+		int i;
+		int j;
 
-	if (size <= 0)
-	{
-		_putchar('\n');
-	} else
-	{
-		for (i = 0; i < size; i++)
+		if (size <= 0)
 		{
-			for (j = 0; j < size; j++)
+			putchar("\n");
+		} else
+		{
+			for (i = 0; i < size; i++)
 			{
-				_putchar('#');
-			}
+				for (j = 0; j < size; j++)
+				{
+					_putchar('#');
+				};
+			};
 			_putchar('\n');
-		}
-	}
+		};
+	};
 }
+
