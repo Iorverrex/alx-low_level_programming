@@ -3,22 +3,21 @@
  * more_numbers - prints the numbers
  *
  */
-int main(void)
+void more_numbers(void)
 {
-	int n = 9;
 	int i;
 	int h;
-	int y = n + h;
-	for (h = 0; h <= n; h++)
+
+	for (h = 0; h <= 9; h++)
 	{
 		for (i = 0; i <= 14; i++)
 		{
-			if ( y <= 14)
-			{	
-				_putchar(y);
-			};
-		};
+			if (i > 9)
+			{
+				_putchar(i / 10 + '0');
+			}
+			_putchar(i % 10 + '0');
+		}
 		_putchar('\n');
-	};
-	return 0;
+	}
 }
