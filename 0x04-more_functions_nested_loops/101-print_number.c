@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_number - prints number
  *
@@ -13,7 +12,10 @@ void print_number(int n)
 	unsigned int y = n;
 	int c = 0;
 
-
+	if (n == 0)
+	{
+		_putchar('0');
+	}
 	if (n < 0)
 	{
 		_putchar('-');
@@ -27,12 +29,12 @@ void print_number(int n)
 
 	while (x != 0)
 	{
-		_putchar(x = x / 10);
+		x = x / 10;
 		c++;
 	}
 	for (i = 1; i < c; i++)
 	{
-		_putchar(d *= 10);
+		d *= 10;
 	}
 	for (i = 0; i < c; i++)
 	{
