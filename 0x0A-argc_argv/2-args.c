@@ -6,7 +6,6 @@
  * @argv: argument vector of pointers to strings
  *
  * Return: always 0
- *
  */
 int main(int argc, char *argv[])
 {
@@ -16,5 +15,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[i]);
 	}
-	retun 0;
+	return (0);
 }
