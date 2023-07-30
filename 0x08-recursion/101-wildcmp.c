@@ -1,14 +1,10 @@
 #include "main.h"
 
 /**
- * test - tests if wildcard is a proper match
- * @s5: string to compare
- * @s6: wildcard match to compare
- * @t5: first spot that was checked
- * @t6: first spot in wildcard comparison
- *
+ * wildcmp - compare strings
+ * @s1: pointer to string params
+ * @s2: pointer to string parems
  * Return: 0
- *
  */
 
 int wildcmp(char *s1, char *s2)
