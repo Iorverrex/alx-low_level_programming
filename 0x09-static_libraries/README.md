@@ -1,4 +1,4 @@
-0x09. C - Static libraries
+#0x09. C - Static libraries
 About
 An introductory project on:
 
